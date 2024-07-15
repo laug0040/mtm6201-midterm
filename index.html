@@ -28,12 +28,13 @@
             <p>We craft more than beverages; we curate memories, one flavorful moment at a time.  Embrace the aroma and let every visit be a chapter in your coffee story.</p>
     
             <a href="#Menu">
-            <button>Explore Our Menu</button>
+            <button aria-label="Explore our Menu">Explore Our Menu</button>
             </a>
         </div>
     </header>
 
     <div id="Welcome">
+        <br>
         <h4>WELCOME TO MY COFFEE HOUSE</h4>
         <h1>EXPERIENCE A NEW WAY TO TASTE COFFEE</h1>
         <img src="images/latte.jpeg" alt="Pouring a lattee">
@@ -49,17 +50,25 @@
         <h4>WHAT WE OFFER</h4>
         <h1>WHY VISIT US?</h1>
         
-        <img class="svg" src="images/fair-trade.svg" alt="Fair Trade SVG">
-        <h1>FAIR TRADE COFFEE</h1>
-        <p>We build direct relationships with the farmers and producers who help in the development of delicious, sustainable and organic coffee.</p>
-        
-        <img class="svg" src="images/local-baked-goods.svg" alt="Local Baked Goods SVG">
-        <h1>LOCAL BAKED GOODS</h1>
-        <p>We use local products to bake our goods and bring in a variety of treats from local bakers with our community.</p>
+        <div class="Offerings">
+            <div class="fair-trade">
+                <img class="svg" src="images/fair-trade.svg" alt="Fair Trade SVG">
+                <h1>FAIR TRADE COFFEE</h1>
+                <p>We build direct relationships with the farmers and producers who help in the development of delicious, sustainable and organic coffee.</p>
+            </div>
 
-        <img class="svg" src="images/made-with-love.svg" alt="Made with Love SVG">
-        <h1>MADE WITH LOVE</h1>
-        <p>We value our customers and make it our priority to serve everyone with respect and a friendly smile to start their day of right.</p>
+            <div class="baked-goods">
+                <img class="svg" src="images/local-baked-goods.svg" alt="Local Baked Goods SVG">
+                <h1>LOCAL BAKED GOODS</h1>
+                <p>We use local products to bake our goods and bring in a variety of treats from local bakers with our community.</p>
+            </div>
+
+            <div class="made-love">
+                <img class="svg" src="images/made-with-love.svg" alt="Made with Love SVG">
+                <h1>MADE WITH LOVE</h1>
+                <p>We value our customers and make it our priority to serve everyone with respect and a friendly smile to start their day of right.</p>
+            </div>
+        </div>
     </div>
 
     <div id="Menu">
@@ -69,14 +78,15 @@
         <h1 class="whitetxt">EXPLORE WHAT WE HAVE TO OFFER YOU</h1>
 
         <a href="#Menu">
-            <button>EXPLORE OUR MENU</button>
+            <button aria-label="Explore our Menu" class="Explore">EXPLORE OUR MENU</button>
         </a>
-
+    </div>
+    <div id="Location">
         <h4>LOCATIONS</h4>
         <h1>FIND YOURE NEAREST COFFEE SHOP</h1>
 
         <a href="#Location">
-            <button>VIEW LOCATIONS</button>
+            <button aria-label="View Locations" class="View">VIEW LOCATIONS</button>
         </a>
     </div>
 
@@ -89,25 +99,30 @@
         <p>My Coffee House quickly became a cherished gathering spot, where the rich aroma of freshly ground coffee beans mingled with the laughter of friends and the tapping of keyboards from those seeking a cozy workspace.</p>
 
         <a href="Learn">
-            <button>LEARN MORE</button>
+            <button aria-label="Learn More">LEARN MORE</button>
         </a>
     </div>
 
     <div id="Testimonial">
         <h4>TESTIMONIALS</h4>
-        <h1>WHAT OUR CUSTOEMRS SAY ABOUT US</h1>
+        <h1>WHAT OUR CUSTOMERS SAY ABOUT US</h1>
         
-        <img src="images/testimonial-1.jpeg" alt="Girl drinking coffee">
-        <p>"I always make a point to visit My Coffee Company when in Ottawa. Delicious coffee and friendly service.</p>
-        <h4>JANE D., TORONTO</h4>
+        <div class="one">
+            <img src="images/testimonial-1.jpeg" alt="Girl drinking coffee">
+            <p>"I always make a point to visit My Coffee Company when in Ottawa. Delicious coffee and friendly service.</p>
+            <h4>JANE D., TORONTO</h4>
+        </div>
+        <div class="two">
+            <img class="two" src="images/testimonial-2.jpeg" alt="Man smiling working on laptop">
+            <p>"Great atmosphere to get some work done while enjoying a cup or two of incredible coffee."</p>
+            <h4>SCOTT S., OTTAWA</h4>
+        </div>
 
-        <img src="images/testimonial-2.jpeg" alt="Man smiling working on laptop">
-        <p>"Great atmosphere to get some work done while enjoying a cup or two of incredible coffee."</p>
-        <h4>SCOTT S., OTTAWA</h4>
-
-        <img src="images/testimonial-3.jpeg" alt="Woman drinking coffee while working on a laptop">
-        <p>"Best coffee in Ottawa and the service is top notch. Would highly recommend a visit."</p>
-        <h4>SUSIE F., OTTAWA</h4>
+        <div class="three">
+            <img class="three" src="images/testimonial-3.jpeg" alt="Woman drinking coffee while working on a laptop">
+            <p>"Best coffee in Ottawa and the service is top notch. Would highly recommend a visit."</p>
+            <h4>SUSIE F., OTTAWA</h4>
+        </div>
     </div>
 </body>
 <footer>
