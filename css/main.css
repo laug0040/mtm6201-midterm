@@ -132,9 +132,48 @@ nav ul li a {
     text-align:center;
 }
 
+.container2 {
+    position:relative;
+    text-align:center;
+}
+
 #Menu img {
     position:relative;
     opacity:50%;
+}
+
+#Menu h4 {
+    position:absolute;
+    top:25px;
+    right:250px;
+}
+
+#Menu h1 {
+    position:absolute;
+    top:50px;
+}
+
+#Menu button {
+    position:absolute;
+    top:125px;
+    left:125px;
+}
+
+#Location h4 {
+    position:absolute;
+    top:250px;
+    right:250px;
+}
+
+#Location h1 {
+    position:absolute;
+    top:275px;
+}
+
+#Location button {
+    position:absolute;
+    top:350px;
+    left:125px;
 }
 
 #Menu .Explore {
@@ -197,7 +236,11 @@ nav ul li a {
     background-color:#000
 }
 
-#Testimonial h1, p {
+.testimony {
+    background-color:#000;
+}
+
+.testimony h1, p {
     color:#fff;
 }
 
@@ -208,13 +251,34 @@ footer {
 }
 
 @media screen and (min-width:768px) {
-    
+    .Offerings {
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+    }
 }
 
 @media screen and (min-width:1100px) {
-    
+    header img {
+        width:25%;
+        text-align:left;
+    }
+
+    nav{
+        text-align:right;
+    }
+
+    #Testimonial {
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+    }
+
     .Offerings {
         display:grid;
         grid-template-columns:repeat(3,1fr);
+    }
+
+    #About {
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
     }
 }
